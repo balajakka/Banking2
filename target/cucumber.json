@@ -1,0 +1,196 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3080857041,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Opeing Barclays Banking Sites",
+        "description": "",
+        "id": "testingbanking-access;opeing-barclays-banking-sites",
+        "after": [
+          {
+            "result": {
+              "duration": 101764162,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 127918027,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am a Chrome user",
+            "match": {
+              "location": "BankingAccess.I_am_a_Chrome_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12341904561,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Barclays website",
+            "match": {
+              "location": "BankingAccess.I_open_Barclays_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173123078,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Barclays web page displays",
+            "match": {
+              "location": "BankingAccess.Barclays_web_page_displays()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52152148,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Login button is displayed",
+            "match": {
+              "location": "BankingAccess.step1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49818288,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Register button is displayed",
+            "match": {
+              "location": "BankingAccess.step2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61736263,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Contact us button is displayed",
+            "match": {
+              "location": "BankingAccess.step3()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1420124859,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Opeing Barclays Banking Sites",
+        "description": "",
+        "id": "testingbanking-access;opeing-barclays-banking-sites",
+        "after": [
+          {
+            "result": {
+              "duration": 98196199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookTest.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 93423,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am a Chrome user",
+            "match": {
+              "location": "BankingAccess.I_am_a_Chrome_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7268022939,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I open Santander website",
+            "match": {
+              "location": "BankingAccess.I_open_Santander_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 249567857,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Santander Home page displayed",
+            "match": {
+              "location": "BankingAccess.Santander_Home_page_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32949949,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "San Login button is displayed",
+            "match": {
+              "location": "BankingAccess.San_Login_button_is_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "TestingBanking access",
+    "description": "",
+    "id": "testingbanking-access",
+    "keyword": "Feature",
+    "uri": "BankingAccess.feature"
+  }
+]
